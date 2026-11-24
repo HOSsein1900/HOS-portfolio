@@ -75,7 +75,7 @@ setTimeout(() => scramble(heroName), 350);
 
 /* ---------- Typing roles ---------- */
 const roles = ['Computer Engineering Student', 'C++ Apprentice',
-               'Web Developer in Training', 'Bug Hunter & Problem Solver'];
+               'App Developer in Training', 'Bug Hunter & Problem Solver'];
 const roleEl = $('#roleText');
 if (RM) roleEl.textContent = roles[0];
 else {
